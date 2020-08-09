@@ -18,7 +18,7 @@ html, body {
   text-align: center;
   height: 100vh;
   align-items: center;
-  background-color: #1A1A1D;
+  background-color: rgb(102, 175, 102);
 }
 
 .joinInnerContainer {
@@ -26,9 +26,11 @@ html, body {
 }
 
 .joinInput {
-  border-radius: 0;
+  border-radius: 5px;
   padding: 15px 20px;
   width: 100%;
+  font-weight: 600;
+  line-height: 23px;
 }
 
 .heading {
@@ -39,15 +41,22 @@ html, body {
 }
 
 .button {
-    color: #fff !important;
+    color: rgb(0, 0, 0) !important;
+    font-weight: 600;
+    line-height: 23px;
     text-transform: uppercase;
     text-decoration: none;
-    background: #2979FF;
+    background: #fff;
     padding: 20px;
     border-radius: 5px;
     display: inline-block;
     border: none;
     width: 100%;
+}
+
+.button:hover {
+  color: #fff !important;
+  background-color: rgb(29, 163, 118);
 }
 
 .mt-20 {
